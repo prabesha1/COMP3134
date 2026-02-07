@@ -1,0 +1,347 @@
+1. Amazon
+
+Domain Information
+
+Name
+amazon.ca
+Registry Domain ID
+D237-CIRA
+Registered On
+2000-09-19T18:44:39Z
+Expires On
+2026-07-16T04:00:00Z
+Updated On
+2025-07-16T04:00:43Z
+Domain Status
+client delete prohibited
+
+client transfer prohibited
+
+client update prohibited
+
+server delete prohibited
+
+server transfer prohibited
+
+server update prohibited
+
+Name Servers
+ns1.amzndns.co.uk
+
+ns1.amzndns.com
+
+ns1.amzndns.net
+
+ns1.amzndns.org
+
+ns2.amzndns.co.uk
+
+ns2.amzndns.com
+
+ns2.amzndns.net
+
+ns2.amzndns.org
+
+Registrant Contact
+
+Name
+Amazon Technologies, Inc. TMA499121
+Organization
+﹣
+Phone
+tel:+1.2062664064
+Fax
+tel:+1.2062667010
+Email
+hostmaster@amazon.com
+Mailing Address
+PO Box 8102, Reno, NV, 91423
+Technical Contact
+
+Name
+David C Arnett
+Organization
+Amazon Technologies, Inc. TMA499121
+Phone
+tel:+1.2062664064
+Fax
+tel:+1.2062667010
+Email
+hostmaster@amazon.com
+Mailing Address
+PO Box 8102, Reno, NV, 91423
+Registrar Information
+
+Name
+MarkMonitor International Canada Ltd.
+IANA ID
+not applicable
+Abuse Contact Email
+abusecomplaints@markmonitor.com
+Abuse Contact Phone
+tel:+1.2083895740
+DNSSEC Information
+
+Delegation Signed
+Unsigned
+
+2. Remitly
+
+Domain Information
+
+Name
+remitly.ca
+Registry Domain ID
+20329827-CIRA
+Registered On
+2015-03-09T19:55:21Z
+Expires On
+2027-03-09T19:55:21Z
+Updated On
+2026-02-02T19:59:45Z
+Domain Status
+client transfer prohibited
+
+Name Servers
+ns-1074.awsdns-06.org
+
+ns-1659.awsdns-15.co.uk
+
+ns-471.awsdns-58.com
+
+ns-701.awsdns-23.net
+
+Registrant Contact
+
+Name
+Matt OPPENHEIMER
+Organization
+Remitly Canada, Inc
+Phone
+tel:+1.2065356152
+Fax
+﹣
+Email
+71d340713dbbbeb7c512db8515954189-4570418@contact.gandi.net
+Mailing Address
+20th Floor 250 Howe Street, Vancouver, BC, V6C3R8
+Technical Contact
+
+Name
+Matt Oppenheimer
+Organization
+﹣
+Phone
+tel:+1.2065356152
+Fax
+﹣
+Email
+76b93956af2b2de4d8814e50e36ada58-4570415@contact.gandi.net
+Mailing Address
+20th Floor 250 Howe Street, Vancouver, BC, V6C3R8
+Registrar Information
+
+Name
+Gandi Services Inc., Gandi SAS
+IANA ID
+not applicable
+Abuse Contact Email
+reg.ca-admin@gandi.net
+Abuse Contact Phone
+tel:+33.170393761
+DNSSEC Information
+
+Delegation Signed
+Unsigned
+
+3. PRABESHAPHOTOGRAPHY.com (My Own Portfolio)
+Domain Information
+
+Name
+PRABESHAPHOTOGRAPHY.COM
+Registry Domain ID
+2856521651_DOMAIN_COM-VRSN
+Registered On
+2024-02-19T03:04:57Z
+Expires On
+2026-02-19T03:04:57Z
+Updated On
+2025-08-23T15:50:10Z
+Domain Status
+client transfer prohibited
+
+Name Servers
+NS1.BABAL.HOST
+
+NS2.BABAL.HOST
+
+NS3.BABAL.HOST
+
+NS4.BABAL.HOST
+
+Registrant Contact
+
+Name
+﹣
+Organization
+﹣
+Phone
+﹣
+Fax
+﹣
+Email
+﹣
+Mailing Address
+﹣
+Registrar Information
+
+Name
+OwnRegistrar, Inc.
+IANA ID
+1250
+Abuse Contact Email
+abuse@ownregistrar.com
+Abuse Contact Phone
+tel:+1.2124016235
+DNSSEC Information
+
+Delegation Signed
+Unsigned
+
+4. Godaddy.ca
+Domain Information
+
+Name
+godaddy.ca
+Registry Domain ID
+D669468-CIRA
+Registered On
+2008-04-18T19:59:09Z
+Expires On
+2027-04-18T04:00:00Z
+Updated On
+2026-01-14T21:01:29Z
+Domain Status
+client delete prohibited
+
+client transfer prohibited
+
+client update prohibited
+
+Name Servers
+cns1.secureserver.net
+
+cns2.secureserver.net
+
+Registrant Contact
+
+Name
+﹣
+Organization
+﹣
+Phone
+﹣
+Fax
+﹣
+Email
+https://www.godaddy.com/whois/results.aspx?domain=GODADDY.CA&action=contactDomainOwner
+Mailing Address
+Ontario
+Technical Contact
+
+Name
+﹣
+Organization
+﹣
+Phone
+﹣
+Fax
+﹣
+Email
+https://www.godaddy.com/whois/results.aspx?domain=GODADDY.CA&action=contactDomainOwner
+Mailing Address
+Ontario
+Registrar Information
+
+Name
+GoDaddy.com, LLC
+IANA ID
+146
+Abuse Contact Email
+abuse@godaddy.com
+Abuse Contact Phone
+tel:480-624-2505
+DNSSEC Information
+
+Delegation Signed
+Unsigned
+
+5. Apple
+Domain Information
+
+Name
+apple.ca
+Registry Domain ID
+D14928-CIRA
+Registered On
+2000-10-19T18:25:39Z
+Expires On
+2026-05-16T04:00:00Z
+Updated On
+2025-04-17T04:37:28Z
+Domain Status
+client transfer prohibited
+
+client update prohibited
+
+Name Servers
+a.ns.apple.com
+
+b.ns.apple.com
+
+c.ns.apple.com
+
+d.ns.apple.com
+
+Registrant Contact
+
+Name
+Domain Administrator
+Organization
+Apple Canada Inc.
+Phone
+tel:+1.4089961010
+Fax
+﹣
+Email
+domains@apple.com
+Mailing Address
+120 Bremner Boulevard, Suite 1600, Toronto, ON, M5J0A8
+Technical Contact
+
+Name
+Technical Manager
+Organization
+Com Laude
+Phone
+tel:+44.2074218250
+Fax
+tel:+44.8700118187
+Email
+hostmaster@comlaude.com
+Mailing Address
+28-30 Little Russell Street, London, London, WC1A2HN
+Registrar Information
+
+Name
+Tucows.com Co.
+IANA ID
+not applicable
+Abuse Contact Email
+compliance@tucows.com
+Abuse Contact Phone
+tel:+1.4165350123
+DNSSEC Information
+
+Delegation Signed
+Unsigned
