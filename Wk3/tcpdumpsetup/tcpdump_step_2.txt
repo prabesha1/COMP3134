@@ -1,0 +1,12 @@
+tcpdump -c 5 -i eth0
+root@prabesha2026:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+07:59:19.818446 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 3373922257:3373922385, ack 2216294088, win 502, options [nop,nop,TS val 3346113386 ecr 842197580], length 128
+07:59:19.818502 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 128:192, ack 1, win 502, options [nop,nop,TS val 3346113386 ecr 842197580], length 64
+07:59:19.818537 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 192:272, ack 1, win 502, options [nop,nop,TS val 3346113386 ecr 842197580], length 80
+07:59:19.818583 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 272:352, ack 1, win 502, options [nop,nop,TS val 3346113387 ecr 842197580], length 80
+07:59:19.818614 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 352:432, ack 1, win 502, options [nop,nop,TS val 3346113387 ecr 842197580], length 80
+5 packets captured
+42 packets received by filter
+0 packets dropped by kernel

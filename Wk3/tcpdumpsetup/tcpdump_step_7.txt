@@ -1,0 +1,129 @@
+tcpdump -r 0001.pcap
+
+
+root@prabesha2026:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+08:06:30.457169 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 3387451665:3387451825, ack 2216296488, win 502, options [nop,nop,TS val 3346544025 ecr 842628212], length 160
+08:06:30.459695 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 160:224, ack 1, win 502, options [nop,nop,TS val 3346544028 ecr 842628212], length 64
+08:06:30.459748 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 224:304, ack 1, win 502, options [nop,nop,TS val 3346544028 ecr 842628212], length 80
+08:06:30.459783 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 304:384, ack 1, win 502, options [nop,nop,TS val 3346544028 ecr 842628212], length 80
+08:06:30.459816 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 384:464, ack 1, win 502, options [nop,nop,TS val 3346544028 ecr 842628212], length 80
+08:06:30.459845 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 464:528, ack 1, win 502, options [nop,nop,TS val 3346544028 ecr 842628212], length 64
+08:06:30.472610 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [.], ack 160, win 501, options [nop,nop,TS val 842628242 ecr 3346544025], length 0
+08:06:30.475012 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [.], ack 224, win 501, options [nop,nop,TS val 842628244 ecr 3346544028], length 0
+08:06:30.475013 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [.], ack 304, win 501, options [nop,nop,TS val 842628244 ecr 3346544028], length 0
+08:06:30.475066 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [.], ack 384, win 501, options [nop,nop,TS val 842628244 ecr 3346544028], length 0
+08:06:30.475099 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [.], ack 464, win 501, options [nop,nop,TS val 842628244 ecr 3346544028], length 0
+08:06:30.475114 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [.], ack 528, win 501, options [nop,nop,TS val 842628244 ecr 3346544028], length 0
+08:06:30.830057 IP 176.65.148.37.ptr.pfcloud.network.41976 > prabesha2026.35755: Flags [S], seq 2214908126, win 1025, options [mss 1460], length 0
+08:06:30.830135 IP prabesha2026.35755 > 176.65.148.37.ptr.pfcloud.network.41976: Flags [R.], seq 0, ack 2214908127, win 0, length 0
+08:06:30.926495 IP 176.65.148.37.ptr.pfcloud.network.41976 > prabesha2026.35755: Flags [R], seq 2214908127, win 1200, options [mss 1460], length 0
+08:06:32.123548 IP tzrhxln.cn.50333 > prabesha2026.58753: Flags [S], seq 3574993193, win 1024, options [mss 1412], length 0
+08:06:32.123607 IP prabesha2026.58753 > tzrhxln.cn.50333: Flags [R.], seq 0, ack 3574993194, win 0, length 0
+08:06:32.583383 IP 176.65.148.37.ptr.pfcloud.network.41960 > prabesha2026.50817: Flags [S], seq 4212257569, win 1025, options [mss 1460], length 0
+08:06:32.583454 IP prabesha2026.50817 > 176.65.148.37.ptr.pfcloud.network.41960: Flags [R.], seq 0, ack 4212257570, win 0, length 0
+08:06:32.679859 IP 176.65.148.37.ptr.pfcloud.network.41960 > prabesha2026.50817: Flags [R], seq 4212257570, win 1200, options [mss 1460], length 0
+08:06:34.815189 IP 176.65.148.37.ptr.pfcloud.network.41976 > prabesha2026.16991: Flags [S], seq 3284419039, win 1025, options [mss 1460], length 0
+08:06:34.815250 IP prabesha2026.16991 > 176.65.148.37.ptr.pfcloud.network.41976: Flags [R.], seq 0, ack 3284419040, win 0, length 0
+08:06:34.913009 IP 176.65.148.37.ptr.pfcloud.network.41976 > prabesha2026.16991: Flags [R], seq 3284419040, win 1200, options [mss 1460], length 0
+08:06:36.081645 ARP, Request who-has prabesha2026 tell _gateway, length 46
+08:06:36.081666 ARP, Reply prabesha2026 is-at 3a:de:50:83:0a:17 (oui Unknown), length 28
+08:06:37.403639 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [S], seq 2870091295, win 64240, options [mss 1460,sackOK,TS val 2581049916 ecr 0,nop,wscale 7], length 0
+08:06:37.403720 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [S.], seq 1887058324, ack 2870091296, win 65160, options [mss 1460,sackOK,TS val 354873929 ecr 2581049916,nop,wscale 7], length 0
+08:06:37.496146 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 2581050008 ecr 354873929], length 0
+08:06:37.496146 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [P.], seq 1:13, ack 1, win 502, options [nop,nop,TS val 2581050009 ecr 354873929], length 12: SSH: SSH-2.0-Go
+08:06:37.496236 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [.], ack 13, win 509, options [nop,nop,TS val 354874021 ecr 2581050009], length 0
+08:06:37.510627 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [P.], seq 1:43, ack 13, win 509, options [nop,nop,TS val 354874036 ecr 2581050009], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+08:06:37.602501 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 2581050115 ecr 354874036], length 0
+08:06:37.602560 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [P.], seq 43:1155, ack 13, win 509, options [nop,nop,TS val 354874127 ecr 2581050115], length 1112
+08:06:37.602626 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [P.], seq 13:1053, ack 43, win 502, options [nop,nop,TS val 2581050115 ecr 354874036], length 1040
+08:06:37.643658 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [.], ack 1053, win 501, options [nop,nop,TS val 354874169 ecr 2581050115], length 0
+08:06:37.694692 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [P.], seq 1053:1101, ack 1155, win 501, options [nop,nop,TS val 2581050207 ecr 354874127], length 48
+08:06:37.694761 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [.], ack 1101, win 501, options [nop,nop,TS val 354874220 ecr 2581050207], length 0
+08:06:37.703544 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [P.], seq 1155:2383, ack 1101, win 501, options [nop,nop,TS val 354874228 ecr 2581050207], length 1228
+08:06:37.796262 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [P.], seq 1101:1117, ack 2383, win 501, options [nop,nop,TS val 2581050309 ecr 354874228], length 16
+08:06:37.796374 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [P.], seq 1117:1185, ack 2383, win 501, options [nop,nop,TS val 2581050309 ecr 354874228], length 68
+08:06:37.796586 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [.], ack 1185, win 501, options [nop,nop,TS val 354874322 ecr 2581050309], length 0
+08:06:37.796630 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [P.], seq 2383:2451, ack 1185, win 501, options [nop,nop,TS val 354874322 ecr 2581050309], length 68
+08:06:37.895449 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [P.], seq 1185:1269, ack 2451, win 501, options [nop,nop,TS val 2581050408 ecr 354874322], length 84
+08:06:37.904191 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [P.], seq 2451:2519, ack 1269, win 501, options [nop,nop,TS val 354874429 ecr 2581050408], length 68
+08:06:37.996835 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [P.], seq 1269:1369, ack 2519, win 501, options [nop,nop,TS val 2581050509 ecr 354874429], length 100
+08:06:38.039655 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [.], ack 1369, win 501, options [nop,nop,TS val 354874565 ecr 2581050509], length 0
+08:06:38.362004 IP 172-234-218-245.ip.linodeusercontent.com.34183 > prabesha2026.1050: Flags [S], seq 4136720387, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+08:06:38.362072 IP prabesha2026.1050 > 172-234-218-245.ip.linodeusercontent.com.34183: Flags [R.], seq 0, ack 4136720388, win 0, length 0
+08:06:39.231901 IP 162.243.190.66.30861 > prabesha2026.ssh: Flags [.], ack 3050715353, win 501, options [nop,nop,TS val 4128314418 ecr 332600270], length 0
+08:06:39.231951 IP prabesha2026.ssh > 162.243.190.66.30861: Flags [.], ack 1, win 501, options [nop,nop,TS val 332615374 ecr 4126396203], length 0
+08:06:40.152802 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [P.], seq 2519:2587, ack 1369, win 501, options [nop,nop,TS val 354876678 ecr 2581050509], length 68
+08:06:40.288295 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [.], ack 2587, win 501, options [nop,nop,TS val 2581052801 ecr 354876678], length 0
+08:06:40.301437 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [F.], seq 1369, ack 2587, win 501, options [nop,nop,TS val 2581052814 ecr 354876678], length 0
+08:06:40.303662 IP prabesha2026.ssh > 167.172.36.79.53052: Flags [F.], seq 2587, ack 1370, win 501, options [nop,nop,TS val 354876829 ecr 2581052814], length 0
+08:06:40.395542 IP 167.172.36.79.53052 > prabesha2026.ssh: Flags [.], ack 2588, win 501, options [nop,nop,TS val 2581052908 ecr 354876829], length 0
+08:06:40.485814 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [P.], seq 1:33, ack 528, win 501, options [nop,nop,TS val 842638255 ecr 3346544028], length 32
+08:06:40.485990 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [P.], seq 33:65, ack 528, win 501, options [nop,nop,TS val 842638255 ecr 3346544028], length 32
+08:06:40.486021 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [.], ack 65, win 502, options [nop,nop,TS val 3346554054 ecr 842638255], length 0
+08:06:40.486113 IP prabesha2026.ssh > 198.211.111.194.41568: Flags [P.], seq 528:592, ack 65, win 502, options [nop,nop,TS val 3346554054 ecr 842638255], length 64
+08:06:40.501398 IP 198.211.111.194.41568 > prabesha2026.ssh: Flags [.], ack 592, win 501, options [nop,nop,TS val 842638270 ecr 3346554054], length 0
+08:06:41.031324 IP 157.230.126.3.50710 > prabesha2026.1007: Flags [S], seq 2599221807, win 1024, length 0
+08:06:41.031384 IP prabesha2026.1007 > 157.230.126.3.50710: Flags [R.], seq 0, ack 2599221808, win 0, length 0
+08:06:41.149817 IP 157.230.126.3.50710 > prabesha2026.1007: Flags [R], seq 2599221808, win 1200, length 0
+08:06:41.257909 IP azpdcs981gn1.stretchoid.com.35446 > prabesha2026.7473: Flags [S], seq 1335247235, win 65535, options [mss 1440,nop,wscale 8,nop,nop,sackOK], length 0
+08:06:41.257976 IP prabesha2026.7473 > azpdcs981gn1.stretchoid.com.35446: Flags [R.], seq 0, ack 1335247236, win 0, length 0
+08:06:43.880853 IP 172.93.101.146.51231 > prabesha2026.6061: Flags [S], seq 903123023, win 1024, length 0
+08:06:43.880911 IP prabesha2026.6061 > 172.93.101.146.51231: Flags [R.], seq 0, ack 903123024, win 0, length 0
+08:06:43.947546 IP 172.93.101.146.51231 > prabesha2026.6061: Flags [R], seq 903123024, win 1200, length 0
+08:06:45.952433 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [S], seq 1936635113, win 64240, options [mss 1460,sackOK,TS val 2771082964 ecr 0,nop,wscale 7], length 0
+08:06:45.952501 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [S.], seq 1243674868, ack 1936635114, win 65160, options [mss 1460,sackOK,TS val 3491760657 ecr 2771082964,nop,wscale 7], length 0
+08:06:46.147484 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 2771083160 ecr 3491760657], length 0
+08:06:46.161922 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [P.], seq 1:43, ack 1, win 510, options [nop,nop,TS val 3491760867 ecr 2771083160], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+08:06:46.316879 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [P.], seq 1:13, ack 1, win 502, options [nop,nop,TS val 2771083329 ecr 3491760657], length 12: SSH: SSH-2.0-Go
+08:06:46.316930 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [.], ack 13, win 510, options [nop,nop,TS val 3491761022 ecr 2771083329], length 0
+08:06:46.357856 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 2771083370 ecr 3491760867], length 0
+08:06:46.357912 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [P.], seq 43:1155, ack 13, win 510, options [nop,nop,TS val 3491761063 ecr 2771083370], length 1112
+08:06:46.552265 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 1155, win 501, options [nop,nop,TS val 2771083565 ecr 3491761063], length 0
+08:06:46.633838 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [P.], seq 13:1133, ack 1155, win 501, options [nop,nop,TS val 2771083646 ecr 3491761063], length 1120
+08:06:46.633889 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [.], ack 1133, win 502, options [nop,nop,TS val 3491761339 ecr 2771083646], length 0
+08:06:46.644308 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [P.], seq 1133:1181, ack 1155, win 501, options [nop,nop,TS val 2771083657 ecr 3491761063], length 48
+08:06:46.644383 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [.], ack 1181, win 502, options [nop,nop,TS val 3491761349 ecr 2771083657], length 0
+08:06:46.650204 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [P.], seq 1155:1759, ack 1181, win 502, options [nop,nop,TS val 3491761355 ecr 2771083657], length 604
+08:06:46.846631 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 1759, win 501, options [nop,nop,TS val 2771083859 ecr 3491761355], length 0
+08:06:47.346804 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [P.], seq 1181:1197, ack 1759, win 501, options [nop,nop,TS val 2771084359 ecr 3491761355], length 16
+08:06:47.346804 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [P.], seq 1197:1249, ack 1759, win 501, options [nop,nop,TS val 2771084359 ecr 3491761355], length 52
+08:06:47.346919 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [.], ack 1249, win 502, options [nop,nop,TS val 3491762052 ecr 2771084359], length 0
+08:06:47.347033 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [P.], seq 1759:1811, ack 1249, win 502, options [nop,nop,TS val 3491762052 ecr 2771084359], length 52
+08:06:47.543424 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 1811, win 501, options [nop,nop,TS val 2771084556 ecr 3491762052], length 0
+08:06:47.857621 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [P.], seq 1249:1317, ack 1811, win 501, options [nop,nop,TS val 2771084870 ecr 3491762052], length 68
+08:06:47.867154 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [P.], seq 1811:1863, ack 1317, win 502, options [nop,nop,TS val 3491762572 ecr 2771084870], length 52
+08:06:48.062686 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 1863, win 501, options [nop,nop,TS val 2771085075 ecr 3491762572], length 0
+08:06:48.520749 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [P.], seq 1317:1401, ack 1863, win 501, options [nop,nop,TS val 2771085533 ecr 3491762572], length 84
+08:06:48.563648 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [.], ack 1401, win 502, options [nop,nop,TS val 3491763269 ecr 2771085533], length 0
+08:06:48.585212 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [S], seq 799750954, win 64240, options [mss 1460,sackOK,TS val 3654348264 ecr 0,nop,wscale 7], length 0
+08:06:48.585277 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [S.], seq 4182125172, ack 799750955, win 65160, options [mss 1460,sackOK,TS val 2301329000 ecr 3654348264,nop,wscale 7], length 0
+08:06:48.726434 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 3654348410 ecr 2301329000], length 0
+08:06:48.738616 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [P.], seq 1:43, ack 1, win 510, options [nop,nop,TS val 2301329154 ecr 3654348410], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13
+08:06:48.898286 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 3654348587 ecr 2301329154], length 0
+08:06:48.996384 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [P.], seq 1:25, ack 43, win 502, options [nop,nop,TS val 3654348682 ecr 2301329154], length 24: SSH: SSH-2.0-libssh2_1.11.1
+08:06:48.996432 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [.], ack 25, win 510, options [nop,nop,TS val 2301329411 ecr 3654348682], length 0
+08:06:48.998170 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [P.], seq 43:1155, ack 25, win 510, options [nop,nop,TS val 2301329413 ecr 3654348682], length 1112
+08:06:49.123159 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], seq 25:1473, ack 43, win 502, options [nop,nop,TS val 3654348812 ecr 2301329154], length 1448
+08:06:49.141235 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [P.], seq 1473:1537, ack 43, win 502, options [nop,nop,TS val 3654348830 ecr 2301329411], length 64
+08:06:49.141359 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [.], ack 1537, win 501, options [nop,nop,TS val 2301329556 ecr 3654348812], length 0
+08:06:49.142559 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], ack 1155, win 525, options [nop,nop,TS val 3654348831 ecr 2301329413], length 0
+08:06:49.395355 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [P.], seq 1537:1585, ack 1155, win 525, options [nop,nop,TS val 3654349085 ecr 2301329556], length 48
+08:06:49.401266 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [P.], seq 1155:1751, ack 1585, win 501, options [nop,nop,TS val 2301329816 ecr 3654349085], length 596
+08:06:49.553849 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], ack 1751, win 542, options [nop,nop,TS val 3654349241 ecr 2301329816], length 0
+08:06:49.762471 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [P.], seq 1585:1645, ack 1751, win 542, options [nop,nop,TS val 3654349446 ecr 2301329816], length 60
+08:06:49.762657 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [P.], seq 1751:1795, ack 1645, win 501, options [nop,nop,TS val 2301330178 ecr 3654349446], length 44
+08:06:49.898355 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], ack 1795, win 542, options [nop,nop,TS val 3654349588 ecr 2301330178], length 0
+08:06:50.175081 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [P.], seq 1645:1729, ack 1795, win 542, options [nop,nop,TS val 3654349864 ecr 2301330178], length 84
+08:06:50.215656 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [.], ack 1729, win 501, options [nop,nop,TS val 2301330631 ecr 3654349864], length 0
+08:06:50.861045 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [P.], seq 1863:1915, ack 1401, win 502, options [nop,nop,TS val 3491765566 ecr 2771085533], length 52
+08:06:51.054735 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 1915, win 501, options [nop,nop,TS val 2771088067 ecr 3491765566], length 0
+08:06:51.240263 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [F.], seq 1401, ack 1915, win 501, options [nop,nop,TS val 2771088252 ecr 3491765566], length 0
+08:06:51.242781 IP prabesha2026.ssh > irmandadeda.sinalbr.com.br.38176: Flags [F.], seq 1915, ack 1402, win 502, options [nop,nop,TS val 3491765948 ecr 2771088252], length 0
+08:06:51.438893 IP irmandadeda.sinalbr.com.br.38176 > prabesha2026.ssh: Flags [.], ack 1916, win 501, options [nop,nop,TS val 2771088451 ecr 3491765948], length 0
+08:06:52.515372 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [P.], seq 1795:1847, ack 1729, win 501, options [nop,nop,TS val 2301332930 ecr 3654349864], length 52
+08:06:52.647266 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], ack 1847, win 542, options [nop,nop,TS val 3654352337 ecr 2301332930], length 0
+08:06:52.788479 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [F.], seq 1729, ack 1847, win 542, options [nop,nop,TS val 3654352478 ecr 2301332930], length 0
+08:06:52.790924 IP prabesha2026.ssh > 81.90.31.198.45240: Flags [F.], seq 1847, ack 1730, win 501, options [nop,nop,TS val 2301333206 ecr 3654352478], length 0
+08:06:52.928164 IP 81.90.31.198.45240 > prabesha2026.ssh: Flags [.], ack 1848, win 542, options [nop,nop,TS val 3654352617 ecr 2301333206], length 0
+root@prabesha2026:~# 
