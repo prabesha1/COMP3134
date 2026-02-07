@@ -1,0 +1,13 @@
+ ~  ping 165.227.40.242                                                                        255 ✘  01:08:19 PM 
+PING 165.227.40.242 (165.227.40.242): 56 data bytes
+64 bytes from 165.227.40.242: icmp_seq=0 ttl=47 time=798.421 ms
+64 bytes from 165.227.40.242: icmp_seq=1 ttl=47 time=320.589 ms
+64 bytes from 165.227.40.242: icmp_seq=2 ttl=47 time=369.761 ms
+64 bytes from 165.227.40.242: icmp_seq=3 ttl=47 time=584.794 ms
+64 bytes from 165.227.40.242: icmp_seq=4 ttl=47 time=408.102 ms
+^C
+--- 165.227.40.242 ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 320.589/496.333/798.421/175.370 ms
+
+ ~         
